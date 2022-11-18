@@ -1,0 +1,1 @@
+const token = import.meta.env.TOKEN;
