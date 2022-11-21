@@ -1,0 +1,185 @@
+body {
+    background-color: #071E44;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+article {
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 27px 0px -14px rgba(255, 255, 255, 0.5); 
+    box-shadow: 0px 27px 0px -14px rgba(255, 255, 255, 0.5);
+    color: black;
+    margin-bottom: 50px;
+}
+
+#erreur {
+    color: white;
+    margin-top: 41px;
+    margin-left: -366px;
+}
+
+img {
+    height: 25%;
+    margin-top: -45px;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid white;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 30px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid white;
+    background: none;
+    height: 35px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+button {
+    text-transform: uppercase;
+    border: none;
+    background-color: #F81E42;
+    color: white;
+    border-radius: 5px;
+    padding: 12px;
+    margin-left: 375px;
+    margin-bottom: 60px;
+    position: fixed;
+}
+
+#trash {
+    width: 20px;
+    margin-top: -14px;
+    display: flex;
+    margin-left: 363px;
+}
+
+#trash:hover {
+    cursor: pointer;
+}
+
+article * {
+    margin-left: 15px;
+}
+
+form {
+    display: flex;
+}
+
+#meteo {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#sup1 {
+    background-color: #FA8C02;
+    border-radius: 40%;
+    padding: 1%;
+    margin-left: 5px;
+    color: white;
+    font-size: 10px;
+}
+
+#p2 sup {
+    font-size: 40px;
+    color: #1D2432;
+}
+
+#p2 {
+    margin-top: -10px;
+    margin-left: -3px;
+    font-size: 60px;
+    color: #1D2432;
+    font-weight: bold;
+}
+
+p {
+    color: #41536F;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 80px;
+    }
+
+    p {
+        color: #41536F;
+        font-size: 20px;
+        margin-top: -10px;
+    }
+
+    #trash {
+        width: 20px;
+        margin-top: -14px;
+        display: flex;
+        margin-left: 170px;
+    }
+
+    #trash:hover {
+        cursor: pointer;
+    }
+
+    article {
+        background-color: white;
+        height: 300px;
+        width: 200px;
+        border-radius: 20px;
+        -webkit-box-shadow: 0px 27px 0px -14px rgba(255, 255, 255, 0.5); 
+        box-shadow: 0px 27px 0px -14px rgba(255, 255, 255, 0.5);
+        color: black;
+        margin-bottom: 50px;
+    }
+
+    input {
+        border: none;
+        border-bottom: 1px solid white;
+        background: none;
+        height: 35px;
+        margin-bottom: 20px;
+        color: white;
+        font-size: 30px;
+    }
+
+    button {
+        text-transform: uppercase;
+        border: none;
+        background-color: #F81E42;
+        color: white;
+        border-radius: 5px;
+        padding: 2%;
+        margin-bottom: 60px;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #meteo {
+    display: flex;
+    flex-wrap: wrap;
+}
+}
